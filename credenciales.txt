@@ -1,0 +1,14 @@
+Tunel SSH 
+source port: 63333
+destination: 167.99.99.114:5432 
+5432 es el puerto donde corre postgresql
+login: root 
+la contraseña se las doy al rato
+
+protocolo: SFTP
+servidor: 167.99.99.114
+usuario: django 
+port: 22
+password igual al rato
+
+
