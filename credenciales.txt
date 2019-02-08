@@ -11,4 +11,8 @@ usuario: django
 port: 22
 password igual al rato
 
+usuarios mac-os(unix) y linux 
+ssh -L 63333:localhost:5432 root@167.99.99.114
+
+
 
