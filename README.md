@@ -29,3 +29,5 @@ edad real default null,
 estatura real default null
 );
 """
+"""copy delitos(anio,mes,fechainicio,alcaldia,catdelito,delito,catdelitoibn,delitoibn, agencia,uinvestigacion,fiscalia,calle,
+colonia,latitud,longitud,peso,edad,estatura) FROM '/tmp/datos.csv'  USING DELIMITERS ','  CSV  encoding 'latin9'"""
