@@ -6,28 +6,5 @@ Al rato seguiremos con formatos y protocolos(ya arreglé los problemas técnicos
 
 Hay TAREA 1
 
-sql="""
-create table delitos2(
-id serial primary key,
-anio integer default null,
-mes integer default null,
-fechainicio timestamp default null,
-alcaldia varchar(100) default null,
-catdelito varchar(100) default null,
-delito varchar(100) default null,
-catdelitoibn varchar(100) default null,
-delitoibn varchar(100) default null,
-agencia varchar(100) default null,
-uinvestigacion varchar(100) default null,
-fiscalia varchar(100) default null,
-calle varchar(100) default null,
-colonia varchar(100) default null,
-latitud real  not null,
-longitud real not null,
-peso real default null,
-edad real default null,
-estatura real default null
-);
-"""
-"""copy delitos(anio,mes,fechainicio,alcaldia,catdelito,delito,catdelitoibn,delitoibn, agencia,uinvestigacion,fiscalia,calle,
-colonia,latitud,longitud,peso,edad,estatura) FROM '/tmp/datos.csv'  USING DELIMITERS ','  CSV  encoding 'latin9'"""
+
+Acabo de surbir  un notebook con un crud en postgreSQL, por favor corranlo.
