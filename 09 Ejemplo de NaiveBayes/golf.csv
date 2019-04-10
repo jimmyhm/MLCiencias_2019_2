@@ -1,0 +1,15 @@
+CIELO,TEMPERATURA,HUMEDAD,VIENTO,GOLF
+Lluvia,Calor,Alta,No,No
+Lluvia,Calor,Alta,Si,No
+Nublado,Calor,Alta,No,Si
+Soleado,Templado,Alta,No,Si
+Soleado,Frio,Normal,No,Si
+Soleado,Frio,Normal,Si,No
+Nublado,Frio,Normal,Si,Si
+Lluvia,Templado,Alta,No,No
+Lluvia,Frio,Normal,No,Si
+Soleado,Templado,Normal,No,Si
+Lluvia,Templado,Normal,Si,Si
+Nublado,Templado,Alta,Si,Si
+Nublado,Calor,Normal,No,Si
+Soleado,Templado,Alta,Si,No
